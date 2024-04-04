@@ -1,0 +1,129 @@
+/* CSS pour l'animation de slider */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F5F5F5;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+}
+
+.full-boxer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.comment-box {
+    width: 600px;
+    height: 220px;
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+    animation: slider-animation 5s infinite; /* Durée de l'animation et répétition */
+    transition: transform 0.5s ease; /* Transition pour le hover */
+}
+
+.Profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 70px;
+    height: 70px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+    /* overflow: hidden; */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.Name strong {
+    color: black;
+    font-size: 18px;
+}
+
+.Name span {
+    color: gray;
+    margin-top: 2px;
+}
+
+.comment p {
+    color: black;
+}
+
+/* Keyframes pour l'animation de slider */
+@keyframes slider-animation {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    75% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-220%);
+    }
+
+
+}
+
+/* Style supplémentaire pour le hover */
+.comment-box:hover {
+    transform: scale(1.1); 
+}
+
+
+@media screen and (max-width:780px){
+    #cache{
+        display: none;
+    }
+
+    .Name strong {
+        font-size: 16px;
+    }
+
+    .comment p{
+        font-size: 14px;
+        padding-top: 12px;
+        font-weight: 300;
+    }
+}
