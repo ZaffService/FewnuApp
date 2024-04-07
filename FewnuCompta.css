@@ -1,0 +1,595 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.section{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    margin: 0;
+    display: block;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #f5f5f5;
+}
+.select{
+    border: none;
+    outline: none;
+}
+.lien-nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lien-logo{
+    display: flex;
+    align-items: center;
+}
+.fa-solid{
+    color: #0bcad4;
+}
+.lien-a{
+    color: grey;
+    text-decoration: 0;
+}
+.lien-a:hover{
+    color: dimgray;
+}
+.navbar-black{
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    
+}
+.sous-lien{
+    position: static;
+    display: none;
+    list-style: none;
+    padding: 10px;
+}
+.sous-lien-a{
+    color: dimgray;
+    text-decoration: 0;
+}
+.listee{
+    position: relative;
+}
+.listee::after{
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.listee:hover .sous-lien{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    background-color: #fff;
+    
+}
+.logofewnu{
+    color: #242424;
+    margin: 5px;
+    margin-right: 20%;
+}
+.list-aa{
+    text-decoration: 0;
+    color: white;
+}
+.list-li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50PX;
+    color: white;
+}
+button{
+    display: none;
+}
+.section1{
+    background-image: url(bg-compta\ \(1\).png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    object-fit: cover;
+    margin: 0px;
+    padding: 50px;
+    color: white;
+}
+.white{
+    margin: 2%;
+    padding-top: 30px;
+    font-size: 19px;
+}
+h1{
+    font-size: 40px;
+}
+.lien-img{
+    display: flex;
+    align-items: center;
+}
+.image{
+    padding: 15px;
+    border-radius: 100%;
+    background-color: rgba(0, 83, 104, 1);
+    position: absolute;
+    z-index: 5;
+}
+.presentation{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+}
+.present{
+    color: rgba(11, 202, 212, 1);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 56px;
+    text-decoration: 0;
+}
+.image{
+    background-color: #0bcad4;
+}
+.vers-contact {
+    background-color: white;
+    padding: 2px;
+    text-decoration: none;
+    color: #367a8a;
+    border-radius: 15px;
+    width: 15%;
+    transform: translateY(-70px);
+    display: flex;
+    align-items: center;
+    margin-left: 70%;
+    box-shadow: 10px 10px 5px 0px rgba(105, 105, 105, 0.212);
+}
+.vers-contact:hover{
+    color: #005368;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 5%;
+    background-color: #f5f5f5;
+}
+.img1{
+    display: flex;
+    align-items: center;
+     gap: 5PX;
+}
+.button{
+    border-radius: 20px;
+    width: 35%;
+    padding: 5px;
+    background-color: #0bcad4;
+}
+.bleue{
+    color: #fff;
+    text-decoration: 0;
+}
+.gras{
+    font-size: 20px;
+    color: #242424;
+}
+.section3{
+    margin: 0%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #005368;
+    color: white;
+}
+.bar{
+    background-color: #367a8a;
+    width: 20%;
+    height: 6px;
+}
+.inscrire{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    width: 40%;
+}
+.inscription{
+    color: rgb(34, 123, 128);
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: 0;
+}
+.section4{
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 5%;
+}
+.paragraphe{
+    margin: 5%;
+}
+.div-bar{
+    background-color: #b7d3d7;
+    width: 5%;
+    height: 6px;
+}
+.icone-white{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.section5{
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.container-sec5{
+    margin: 5%;
+}
+.telecharge{
+    background-color: #0bcad4;
+    border-radius: 25px;
+    padding: 13px;
+    width: 30%;
+}
+.fond-bleu{
+    color: white;
+    text-decoration: 0;
+    font-size: 15px;
+    
+}
+.fond-bleu:hover{
+    color: #005368;
+}
+.class-bar{
+    background-color: #b7d3d7;
+    width: 10%;
+    height: 6px;
+}
+.video{
+    display: flex;
+    gap: 13%;
+    margin: 7%;
+}
+.video1{
+    width: 440px;
+}
+.video2{
+    display: flex;
+    flex-direction: column;
+    height: 357px;
+    overflow-y: scroll;
+    width: 40%;
+}
+.span-video{
+    display: flex;
+    align-items: center;
+}
+.section7{
+    margin: 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+.section-parent{
+    margin: 5%;
+}
+.bold{
+    font-weight: bold;
+    color: #242424;
+}
+.choisir{
+    padding: 10px;
+}
+.fond-gray{
+    border: 1px solid #d3cece;
+    padding: 4%;
+    background-color: #eeeeee;
+}
+.fond-bl{
+    background-color: #0bcad4;
+    color: white;
+    text-align: center;
+    padding: 6%;
+}
+.fond-white{
+    background-color: white;
+    box-shadow: 2px 5px rgb(207, 203, 203);
+    border: 1px solid #d3cece;
+    padding: 5%;
+}
+.colones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 10px;
+}
+.inscrite{
+    background-color: #005368;
+    border: 1px solid;
+    padding:5px;
+    transform: translateX(60PX);
+    width: 40%;
+}
+.class-a{
+    color: white;
+    text-decoration: 0;
+}
+.section8{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.container-section{
+    margin: 5%;
+    padding: 5%;
+}
+.icone-bleu{
+    color: #0bcad4;
+}
+.img-p{
+    display: flex;
+    align-items: center;
+    gap: 5PX;
+    padding: 5px;
+}
+.groupe{
+   background-color: white;
+   box-sizing: border-box;
+   box-shadow: 10px 10px 5px 0px rgba(105, 105, 105, 0.212);
+}
+.slick-dots {
+    position: relative;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+ }
+.container-groupe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 110%;
+    animation: image 5s infinite ease-in-out;
+
+}
+@keyframes image{
+    0%,
+    20%{
+        transform: translateX(0);
+    }
+    25%,
+    45%{
+        transform: translateX(-100%);
+    }
+    50%,
+    70%{
+        transform: translateX(-200%);
+    }
+    75%,
+    95%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-400%);
+    }
+}
+.section9{
+    background-color: #242424;
+    color: #fff;
+}
+.container9{
+    margin: 5%;
+}
+.center{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    gap: 10PX;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.a{
+    text-decoration: none;
+    color: #fff;
+}
+.a:hover{
+    color: gray;
+}
+.p{
+    text-align: center;
+}
+.footer-icone{
+    display: flex;
+    gap: 20PX;
+    font-size: 20px;
+    padding-bottom: 4%;
+
+}
+.fa-brands:hover{
+    color: gray;
+    opacity: gray 0.15;
+}
+@media screen and (max-width:670px){
+    .navbar{
+        display: none;
+    }
+    button  {
+        display: flex;
+        transform: translateX(100PX);
+        padding: 8px;
+        position: relative;
+    }
+    button:hover .list-li{
+        display: block;
+        position: absolute;
+        background-color: black;
+        right:97px;
+        top: 30px;
+        padding: 20px;
+        width: 300px;
+    }
+    .navbar-black{
+        width: 370px;
+    }
+    .logofewnu{
+        width: 30%;
+    }
+    .list-li{
+        display: none;
+    }
+    .white{
+        font-size: 10px;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .text-download{
+        display: none;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .icone-white{
+        display: flex;
+        flex-direction: column;
+    }
+    .section3{
+        width: 350px;
+    }
+    .flex{
+        display: none;
+    }
+    .section5{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-groupe{
+        display: flex;
+        flex-direction: column;
+    }
+    .display{
+        display: flex;
+        flex-direction: column;
+    }
+    .colones{
+        display: flex;
+        flex-direction: column;
+    }
+    .groupe{
+        width: 315px;
+    }
+    .section1{
+        background-image: url(bg-compta\ \(1\).png);
+        width: 313px;
+    }
+    .presentation{
+        padding: 15px;
+    }
+    .inscrite{
+        width: 24%;
+    }
+    .fond-bleu{
+        font-size: 13px;
+    }
+    .present{
+        font-size: 16px;
+    }
+    .image{
+        padding: 10PX;
+    }
+    .vers-contact{
+        padding-right: 20px;
+        padding: 2px;
+    }
+    .img-download{
+        width: 20px;
+    }
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+    .video1 iframe{
+        width: 335px;
+        height: 300px;
+    }
+    .video2{
+        width: 305px;
+    }
+}
+@media screen and (max-width:360PX) {
+    .presentation{
+        padding: 10px;
+    }
+    .navbar-black{
+        width: 360px;
+    }
+    .logofewnu{
+        width: 30%;
+    }
+    .telecharge{
+        width: 35%;
+    }
+    .video1{
+        width: 200%;
+        /* height: 300px; */
+    }
+    .groupe{
+        width: 300px;
+    }
+    
+}
+@media screen and (max-width:414px) {
+    .navbar-black{
+        width: 414px;
+    }
+    .presentation{
+        padding: 7px;
+    }
+    .button{
+        padding: 5px;
+        width: 230px;
+    }
+    .video{
+        overflow: hidden;
+    }
+    .video2{
+        width: 350px;
+    }
+    .video1 iframe{
+        width: 400px;
+        
+    }
+}
+@media screen  and (max-width:500px) {
+    .navbar-black{
+        width: 413px;
+    }
+    .video{
+        overflow: hidden;
+    }
+    .section3{
+        width: 380px;
+    }
+}
