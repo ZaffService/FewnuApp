@@ -1,12 +1,5 @@
 /* CSS pour l'animation de slider */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
 .main {
     display: flex;
     /* flex-direction: column; */
@@ -37,9 +30,7 @@
     margin: 15px;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
-    animation: slider-animation 5s infinite; /* Durée de l'animation et répétition */
-    transition: transform 0.5s ease; /* Transition pour le hover */
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);   
 }
 
 .Profile {
@@ -52,7 +43,7 @@
     height: 70px;
     overflow-y: hidden;
     overflow-x: auto;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+    /* box-shadow: 2px 2px 30px rgba(0,0,0,0.3); */
     /* overflow: hidden; */
     border-radius: 50%;
     margin-right: 10px;
@@ -85,31 +76,50 @@
     color: black;
 }
 
-/* Keyframes pour l'animation de slider */
-@keyframes slider-animation {
-    0% {
-        transform: translateX(0);
-    }
-    25% {
-        transform: translateX(0%);
-    }
-    50% {
-        transform: translateX(0%);
-    }
-    75% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-220%);
-    }
+/* Styles pour les boutons radio */
+input[type="radio"] {
+    display: none;
+  }
+  
+  .controls {
+    position: relative;
+    bottom: 40px;
+    left: 97%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+
+  
+  .control-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 20px 5px;
+    cursor: pointer;
+  }
+
+  .control-dot:first-child{
+    background-color: blue;
+  }
+  
+  input[type="radio"]:checked + .controls .control-dot {
+    background-color: blue;
+  }
+  
+  /* Styles pour le carrousel */
+  .slider {
+    display: flex;
+  }
+  
+  .slider section {
+    flex-shrink: 0;
+    width: 100%;
+  }
+  
 
 
-}
-
-/* Style supplémentaire pour le hover */
-.comment-box:hover {
-    transform: scale(1.1); 
-}
 
 
 @media screen and (max-width:780px){
