@@ -422,6 +422,7 @@ input[type=checkbox]:checked ~ .navabr-list{
     line-height: 60px;
 }
 
+
 #fewnu p{
     line-height: 30px;
 }
@@ -604,6 +605,9 @@ input[type=checkbox]:checked ~ .navabr-list{
         padding-left: 20px;
     }
 }
+
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     #page2{

@@ -617,6 +617,7 @@ strong{
     }
     .black{
         display: block;
+        width: 50%;
     }
     .logo img{
         transform: translate(0,25px);
@@ -694,12 +695,13 @@ strong{
     display: none;
 }
 .bacgroung{
-    width: 100%;
+    width: 82%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     display: block;
+    overflow-x: hidden;
      }
      .volupt{
         display: block;

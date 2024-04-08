@@ -66,6 +66,14 @@ ul{
     position: absolute;
     top: 100%;
     left: 58%;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+   
+}
+.lien li:hover a{
+    color: #242424;
+    padding: 10px 0px;
 }
 a{
     color: #fff;
@@ -74,9 +82,8 @@ a{
 }
 
 .main1{
-    color: #fff;
     background-image: url(images/bg-budget.png);
-    background-size: 100%;
+    background-size: cover;
     height: 570px;
     padding: 5%;
 }
@@ -476,6 +483,10 @@ video{
 @media screen  and (min-width:350px) and (max-width:500px) {
     body{
         width: 100%;
+    }
+
+    div .left, div .right, div .midle{
+        display: none;
     }
     .lien > #btn{
         display: block;
