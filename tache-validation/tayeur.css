@@ -621,13 +621,13 @@ strong{
     }
     .logo img{
         transform: translate(0,25px);
-        width: 8%;
+        width: 18%;
     }
      .cache{
         display: block;
         transform: translate(260px,-30px); 
         font-size: 25px;
-        width: 3%;
+        width: 10%;
         padding: 3px;
         background-color: #fff;
         text-align: center;
@@ -695,20 +695,15 @@ strong{
     display: none;
 }
 .bacgroung{
-    width: 82%;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    display: block;
-    overflow-x: hidden;
+    width: 100%;
+    height: 600px;
      }
      .volupt{
         display: block;
      }
      .part1{
-        width: 80%;
-        margin: 0;
+        width: 100%;
+        margin: 0 10px;
         padding:5px;
         transform: translateX(0);
         line-height: 25px;
@@ -732,7 +727,7 @@ strong{
     }
     .fonc{
         line-height: 25px;
-         width: 88%;
+         width: 100%;
         height: 550px; 
         padding: 18px 5px;
     }
@@ -743,7 +738,8 @@ strong{
     .flex1 a{
         width: 20%;
         padding: 10px;
-        
+        position: relative;
+        top: -30px;
     }
     .flex1 h1{
         font-size: 20px;
@@ -756,7 +752,7 @@ strong{
         display: none;
     }
     .avantg{
-        width: 90%;
+        width: 100%;
         padding:20px 10px;
     }
     .grid{
@@ -779,7 +775,7 @@ strong{
         font-size: 15px;
     }
     .guide{
-        width: 80%;
+        width: 100%;
         display: block;
         padding: 20px 15px;
     }
@@ -806,7 +802,7 @@ strong{
     }
     .just{
         margin:20px 0;
-        width: 80%;
+        width: 100%;
     }
     .just p{
         font-size: 14px;
@@ -840,12 +836,19 @@ strong{
     }
     .un, .deux, .trois, .quatre{
         width: 70%;
-        height: 400px;
+        height: 500px;
         margin-top: 20px;
     }
     .client h1{
         font-size: 12px;
         margin-left: -130px;
+    }
+    .border5{
+        width: 60%;
+        transform: translateX(-130px);
+    }
+    .badji{
+        padding: 20px;
     }
     .dolor{
         display: block;
@@ -864,7 +867,7 @@ strong{
     }
     .fewnu img{
         width: 65px;
-        transform: translateX(-20px);
+        transform: translateX(0);
     }
     .ipsum p{
         text-align: justify;
@@ -879,6 +882,7 @@ strong{
     }
     .footer{
         margin: 0;
-        height: 800px;
+        height: 900px;
+        transform: translateX(-40px);
     }
 }
