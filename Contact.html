@@ -3,122 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Page de Contact</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="slide.css">
     <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="savoirplus.css">
     <link rel="shortcut icon" href="images/fewnu.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+
 </head>
 <body>
-    <div id="main">
-        <div id="page1">
-            <!-- /* VOICI LA DEBUT  DE MON PREMIER CONTENU DE NAVIGATION */ -->
-            <div id="nav">
-                <div class="nav-part1">
-                    <div id="items">
-                        <i class="fa-solid fa-envelope"></i>
-                        <p>contact.fewnu@gmail.com</p>
-                    </div>
-                    <div id="items">
-                        <i class="fa-solid fa-phone-volume"></i>
-                        <p>+221 78 293 36 56</p>
-                    </div>
-                </div>
-                <div class="nav-part2">
-                    <p>Nous suivre</p>
-                    <div id="icons">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-tiktok"></i>
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                    </div>
-                </div>
-                <div class="nav-part3">
-                    <img src="images/fr.png" alt="">
-                        <p>Fr</p>
-                        <i class="fa-solid fa-sort-down"></i>
-                    </div>
-                </div>
 
-                <!-- NAVBAR NUMERO2 -->
+    <header id="header1">
 
-                <div id="navbar">
-                    <div class="navbar-part1">
-                        <img src="images/fewnu.png" alt="">
-                    </div>
-                    <div class="navbar-part2">
-                        <label for="menu-mobile" class="menu-mobile"><i class="fa-solid fa-bars"></i></label>
-                        <input type="checkbox" id="menu-mobile" role="button">
+        <div id="nav">
+            <div class="nav-part1">
+                <div id="items">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>contact.fewnu@gmail.com</p>
+                </div>
+                <div id="items">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>+221 78 293 36 56</p>
+                </div>
+            </div>
+            <div class="nav-part2">
+                <p>Nous suivre</p>
+                <div id="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="nav-part3">
+                <img src="images/fr.png" alt="">
+                    <p>Fr</p>
+                    <i class="fa-solid fa-sort-down"></i>
+            </div>
+        </div>
 
-                        <ul class="navabr-list">
-                            <li class="navbar-items" ><a id="active" class="navbar-link" href="">Accueil</a></li>
-                            <li class="navbar-items"><a class="navbar-link" href="">Qui sommes-nous?</a></li>
-                            <li class="navbar-items" tabindex="0" id="menu-html"><a class="navbar-link" href="">Nos applications <i class="fa-solid fa-sort-down"></i></a>
-                                <ul class="submenu">
-                                    <li><a href="">Fewnu Budget</a></li>
-                                    <li><a href="">Fewnu Compta et Facturation</a></li>
-                                    <li><a href="">Fewnu Tayeur</a></li>
-                                </ul>
-                            </li>
-                            <li class="navbar-items"><a class="navbar-link" href="">Contact</a></li>
+    </header>
+
+
+
+    <header id="header" class="menu">
+        <div class="menu-wrap">
+            <img src="images/fewnu (2).png" class="logo-img" alt="Logo">
+            <input type="checkbox" id="checkbox">
+            <nav>
+                <ul class="navabr-list">
+                    <li><a id="active" href="index.html">Accueil</a></li>
+                    <li><a href="#">Qui sommes-nous?</a></li>
+                    <li class="navbar-items" id="menu-html"><a href="#" class="navbar-link" >Nos applications &blacktriangledown; </a>
+                    
+                        <ul class="submenu" id="submenu">
+                            <li id="lien"><a id="lien" href="FewnuBudget.html">Fewnu Budget</a></li>
+                            <li id="lien"><a id="lien" href="FewnuComptaEtFacturation.html">FewnuCompta et Facturation</a></li>
+                            <li id="lien"><a id="lien" href="FewnuTayeur.html">Fewnu Tayeur</a></li>
                         </ul>
+                    
+                    </li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="checkbox">
+                <i class="fa fa-bars menu-icon"></i>
+            </label>
+        </div>
+    </header>
+
+    <div id="whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
+
+    <div id="Mypage">
+
+        <section id="form-controm">
+            <div class="sect">
+                <h2>Contactez Nous</h2>
+                <p></p>
+            </div>
+    
+            <div id="iframe">
+                <div id="rigthcontact">
+                    <div id="para">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad tis nisl ut aliquip ex ea commodo consequat.</h2>
+    
+                    </div>
+                    <div class="form">
+                        <h5>Nom</h5>
+                        <input type="text" id="NomPrenom" placeholder="Entrer votre nom & prenom">
+                        <h5>Email</h5>
+                        <input type="text" id="NomPrenom" placeholder="Entrez votre email">
+                        <h5>Sujet</h5>
+                        <input type="text" id="NomPrenom" placeholder="Ton sujet">
+    
+                        <h5>Message</h5>
+                        <textarea id="textarea" name="" id="" cols="30" rows="5">
+                        </textarea>
+    
+                        <button id="button">Envoyer</button>
                     </div>
                 </div>
-            
-            </div>
-
-             <!-- VOICI LA FIN DE MON  CONTENU DE NAVIGATION  -->
     
-        </div>
-
-
-       <section id="form-controm">
-        <div class="sect">
-            <h2>Contactez Nous</h2>
-            <p></p>
-        </div>
-
-        <div id="iframe">
-            <div id="rigthcontact">
-                <div id="para">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad tis nisl ut aliquip ex ea commodo consequat.</h2>
-
-                </div>
-                <div class="form">
-                    <h5>Nom</h5>
-                    <input type="text" id="NomPrenom" placeholder="Entrer votre nom & prenom">
-                    <h5>Email</h5>
-                    <input type="text" id="NomPrenom" placeholder="Entrez votre email">
-                    <h5>Sujet</h5>
-                    <input type="text" id="NomPrenom" placeholder="Ton sujet">
-
-                    <h5>Message</h5>
-                    <textarea id="textarea" name="" id="" cols="30" rows="5">
-                    </textarea>
-
-                    <button id="button">Envoyer</button>
+                <div id="leftcontact">
+                    <h3>NOUS SOMMES ICI</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3858.4482649663455!2d-17.453145!3d14.743757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10dd476fedbb1%3A0x4b7c559a6d1a192b!2sBakeli%20School%20of%20Technology!5e0!3m2!1sfr!2ssn!4v1711897735835!5m2!1sfr!2ssn" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+                    <div id="gy">
+                        <h1>ADRESSE</h1>
+                        <h3>HLM Grand Yoff</h3>
+                        <h3>12500, Dakar, SÉNÉGAL</h3>
+                        <h3> +221 78 293 36 56</h3>
+                    </div>
                 </div>
             </div>
-
-            <div id="leftcontact">
-                <h3>NOUS SOMMES ICI</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3858.4482649663455!2d-17.453145!3d14.743757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10dd476fedbb1%3A0x4b7c559a6d1a192b!2sBakeli%20School%20of%20Technology!5e0!3m2!1sfr!2ssn!4v1711897735835!5m2!1sfr!2ssn" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                <div id="gy">
-                    <h1>ADRESSE</h1>
-                    <h3>HLM Grand Yoff</h3>
-                    <h3>12500, Dakar, SÉNÉGAL</h3>
-                    <h3> +221 78 293 36 56</h3>
-                </div>
-            </div>
-        </div>
-       </section>
+           </section>
+    
 
 
 
-      
-       <footer id="footer">
+    </div>
+     
+     <footer id="footer">
         <div id="grid">
             <div id="fewnu">
                 <img src="images/fewnu.png" alt="">
@@ -172,5 +184,9 @@
             <p>Politique de confidentialité</p>
         </div>
     </footer>
+
+
+
+
 </body>
 </html>

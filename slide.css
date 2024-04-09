@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 20px;
+    gap: 2px;
 }
 
 .comment-box {
@@ -74,6 +74,8 @@
 
 .comment p {
     color: black;
+    font-size: 14px;
+    text-align: justify;
 }
 
 /* Styles pour les boutons radio */
@@ -132,8 +134,8 @@ input[type="radio"] {
     }
 
     .comment p{
-        font-size: 14px;
-        padding-top: 12px;
+        font-size: 12px;
+        padding-top: 20px 12px;
         font-weight: 300;
     }
 }
