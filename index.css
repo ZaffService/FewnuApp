@@ -1,0 +1,16 @@
+body{
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#page1{
+    margin-top: -117px;
+    background-image: url("images/bg-herd.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    height: 100vh;
+    width: 104%;
+    z-index: -1000;
+}

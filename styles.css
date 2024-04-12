@@ -31,6 +31,7 @@
 }
 
 #nav{
+    position: relative;
     width: 100vw;
     height: 4.6vh;
     background-color:#F5F5F5;
@@ -104,6 +105,7 @@
 
 /* VOICI MON DEUXIEME HEADER  */
 #header {
+    position: relative;
     height: 90px;
     background-color: #242424;
     padding: 20px 30px;
