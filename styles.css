@@ -25,7 +25,10 @@
 /* VOICI MON DEUXIEME HEADER  */
 
 #header1{
+    position: fixed;
+    margin-top: 0px; 
     overflow: hidden;
+    z-index: 1000;
 }
 
 #nav{
@@ -103,8 +106,10 @@
 
 /* VOICI MON DEUXIEME HEADER  */
 #header {
-    position: relative;
+    margin-top: 40px;
+    position: fixed;
     height: 90px;
+    width: 100vw;
     background-color: #242424;
     padding: 20px 30px;
     z-index: 4000;
@@ -217,9 +222,7 @@ nav ul li a {
     font-size: 18px;
     font-weight: bold;
 }
-#temoignage{
-   background-color: #F2F2F2;
-}
+
 
 #after{
     content: "";
