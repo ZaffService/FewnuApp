@@ -7,6 +7,7 @@
 }
 body{
     font-size: 20px;
+    width: 100%;
 }
 
 #whatsapp{
@@ -594,7 +595,7 @@ margin-top: 10px;
     background-color: white;
     border-radius: 25px;
     padding: 10px;
-    width: 25%;
+    width: 70%;
     margin-left: -1%;
     margin-top: 50px;
     font-size: 18px;
@@ -643,13 +644,13 @@ margin-top: 10px;
 .but{
     color: #fff;
     background-color: #12cdd7;
-    width: 50%;
+    width: 200px;
    border-radius: 15px;
    padding: 20px;
  
 }
 .bute{
-    margin-right: 50%;
+    margin-right: 0;
 }
 .ligee{
     padding: 3px;
@@ -852,7 +853,7 @@ video{
         color: #fff;
         background-image: url(budjetphoto/bg-budget.png);
         background-size: cover;
-        height: 47rem;
+        /* height: 47rem; */
         padding: 5%;
         /* font-size: 15px; */
     }
