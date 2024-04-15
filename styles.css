@@ -28,9 +28,9 @@
 #header1{
     position: fixed;
     margin-top: 0px; 
-    overflow: hidden;
     position: fixed;
-    z-index: 3000;
+    margin-top: 0px; 
+    overflow: hidden;
 }
 
 #nav{
@@ -227,6 +227,7 @@ nav ul li a {
     font-size: 18px;
     font-weight: bold;
 }
+
 
 
 #after{
