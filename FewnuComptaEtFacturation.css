@@ -699,3 +699,23 @@ h1{
     }
 
 }
+@media screen  and (min-width:350px) and (max-width:500px) {
+    /* *{
+        border: 1px solid red;
+    } */
+    body{
+        width: 100%;
+        font-size: 20px;
+    }
+    #header {
+     margin: 0;
+    }
+    .section1{
+
+        background-image: url(images/bg-compta.png);
+        background-size: cover;
+    }
+    .section4 h2{
+        font-size: 15px;
+    }
+}

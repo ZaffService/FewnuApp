@@ -1,12 +1,16 @@
 /* CSS pour l'animation de slider */
 
+.slider-container{
+    background-color: #f2f2f2;
+}
+
 .main {
+    margin: 0;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: #F5F5F5;
     height: auto;
     padding-top: 20px;
     padding-bottom: 80px;
@@ -112,6 +116,7 @@ input[type="radio"] {
   
   /* Styles pour le carrousel */
   .slider {
+    background-color: #f2f2f2;
     display: flex;
   }
   
